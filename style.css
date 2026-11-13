@@ -1,0 +1,565 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+
+}
+
+#proyectos {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+
+#proyectos p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #f0eeec;
+    border: 3px solid #2b2b2b24;
+    border-radius: 20px;
+    background-color: #6e6e6ebd;
+
+    text-align: center;
+    white-space: nowrap;
+
+    text-shadow: 10px 15px 10px #2b2b2b;
+    height: 150px;
+    width: 800px;
+    font-size: 50px;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+#proyectos img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    height: 10vh;
+    gap: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    background-color: #ea5b0c;
+    justify-content: space-evenly;
+    align-items: center;
+    position:relative;
+    padding-left: 140px;
+    font-style: initial;
+    width: 100%;
+    height: 10vh;
+}
+
+#Skateamigos h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f0eeec;
+    text-shadow: 4px 7px 8px #2b2b2b;
+    font-size: 60px;
+    text-align: center;
+}
+
+#Skateamigos p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f0eeec;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 3px 9px 6px #2b2b2b;
+    
+}
+
+nav ul a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+
+#botondonar {
+    background-color: #e7e5e5;
+    border-radius: 30px;
+    border: 3px solid #2b2b2b;
+
+    color: #2b2b2b;
+    padding: 14px;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#botondonar:hover {
+    background-color: #2b2b2b;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+
+#logo {
+    position: absolute;
+    left: 26px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 0%;
+    margin: 0%;
+}
+
+#Skateamigos {
+    display: flex;
+    justify-content: center;    
+    height: 90vh;
+    width: 100%;
+    position: relative;
+}
+
+#Skateamigos a {
+
+     background-color: #e7e5e5;
+    border-radius: 30px;
+    border: 3px solid #2b2b2b;
+
+    color: #2b2b2b;
+    padding: 14px;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#Skateamigos a:hover {
+
+     background-color: #f67d20;
+    color: #e1e1e1;
+    transform: scale(1.05);
+}
+
+#Skateamigos img {
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    filter: brightness(0.8);
+    object-fit: cover;
+}
+
+#Skateamigos a {
+    background-color: #f0eeec;
+    position: absolute;
+    top: 75%;
+    padding: 20px 50px;
+    border-radius: 15px;
+    border: 2px solid #ff803c;
+    text-decoration: double;
+    font-size: 35px;
+    color: #2b2b2b;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+
+#conocenos {
+    background-color: #ff803c;
+    padding: 0px;
+    padding-top: 1%;
+    padding-left: 0%;
+    width: 100%;
+    height: 100vh;
+    scroll-margin-top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+
+}
+
+#conocenos h2 {
+    font-size: 50px;
+    color: #f0eeec;
+    text-align: center;
+    margin: 10px 30px 25px 0;
+    border-bottom: 4px solid #e7e5e5;
+    border-width: 70%;
+    padding-bottom: 15px;
+    width: 30%;
+    padding-left: 5px;
+    text-wrap-mode: nowrap;
+}
+
+#conocenos .contenido {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+#conocenos .contenido p {
+    font-size: 20px;
+    color: #f0eeec;
+    width: 50%;
+    padding: 2px 10px;
+    text-align: justify;
+    margin: 0;
+    line-height: 1.6;
+    
+}
+
+#imagenComunidad {
+    width: 45%;
+    box-shadow: #2b2b2b 16px 20px 20px;
+    padding-right: 0px;
+}
+
+#imagenComunidad img {
+    display: block;
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    filter: brightness(0.9);
+}
+
+#Separador div {
+    display: flex;
+    justify-content: center;
+    background-color: #2b2b2b;
+    color: #e7e5e5;
+    padding: 2.5%;
+    padding-top: 2%;
+    margin-top: 1%;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serifx;
+
+}
+
+#Separador{
+
+    scroll-margin-top: 80px;
+
+    
+}
+
+
+footer {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+     background: linear-gradient(
+        135deg,
+        #474747 0%,
+        #676767 50%,
+        #444445 100%
+    );
+    padding: 3.1%;
+
+}
+
+footer div img{ 
+    height: 200px;
+}
+
+
+footer div p{ 
+    font-size: 25px;
+    text-align: left;
+    max-width: 380px;
+
+}
+
+
+ul button { 
+    display: none;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+
+
+}
+
+#contacto {
+    padding:20px;
+    line-height: 1.8;
+    text-align: center;
+    color: #f0eeec;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#sumate{
+    position: absolute;
+    right: 40%;
+    display: inline-block;
+    background-color: #ff803c;
+    padding: 12px 25px;
+    border-radius: 10px;
+    color: #f0eeec;
+    font-family: 'Lucida Sans', sans-serif;
+    text-align: center;
+    box-shadow: 0 4px 0 #c95b25;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+#sumate:hover {
+    background-color: #ff9b60;
+    transform: translateY(-4px) scale(1.04);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.25);
+}
+#formulario {
+    width: 90%;
+    max-width: 650px;
+    margin: 50px auto;
+    padding: 35px;
+
+    background-color: #2c0a0a;
+    color: #f0eeec;
+
+    border-radius: 18px;
+    border: 1px solid #444;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+
+#formulario h1 {
+    color: #ff803c;
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#formulario p {
+    margin-top: 25px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+
+#formulario input[type="date"],
+#formulario input[type="email"] {
+    width: 100%;
+    padding: 12px;
+
+    background-color: #353535;
+    color: white;
+
+    border: 2px solid #555;
+    border-radius: 8px;
+
+    transition: 0.3s ease;
+}
+
+
+#formulario input[type="date"]:focus,
+#formulario input[type="email"]:focus {
+    outline: none;
+    border-color: #ff803c;
+    box-shadow: 0 0 10px rgba(255,128,60,0.3);
+}
+
+
+#formulario input[type="radio"] {
+    accent-color: #ff803c;
+    cursor: pointer;
+    margin: 8px 5px 8px 0;
+}
+
+
+#formulario label {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#enviar {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 45px;
+    background-color: #ff803c;
+    color: #f0eeec;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    scale: 0.9;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#enviar:hover {
+    background-color: #e6733b;
+    transform: scale(1.05);
+}
+
+
+
+@media (max-width: 768px) {
+
+    header {
+        position: static;
+    }
+
+    nav ul {
+        flex-direction: column;
+        height: auto;
+        padding-left: 0;
+        position: static;
+    }
+
+    #Skateamigos a {
+        font-size: 20px;
+        padding: 10px 30px;
+    }
+
+    #conocenos {
+        width: 100%;
+        height: auto;
+        min-height: 0;
+        padding: 20px 0;
+        background-color: #ff803c;
+    }
+
+    #conocenos .contenido {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 20px;
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    #conocenos .contenido p {
+        font-size: 18px;
+        width: 100%;
+        margin: 0;
+        text-align: left;
+        line-height: 1.6;
+        box-sizing: border-box;
+    }
+
+    #conocenos h2 {
+        padding-top: 20px;
+        font-size: 28px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #imagenComunidad {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    #imagenComunidad img {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+        object-fit: cover;
+        border-radius: 12px;
+        scale: 1;
+    }
+
+    #botondonar {
+        border-radius: 10px;
+        border-style: none;
+        background-color: #e7e5e5;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 25px 20px;
+        background-color: #383838;
+        box-sizing: border-box;
+        align-self: stretch;
+    }
+
+      nav ul .link {
+        display: none;
+    }
+    
+   ul button {
+        display: block;
+        
+    }
+
+    nav ul.flexToggle .linkToggle {
+        display: block;
+
+    }
+
+
+    #formulario {
+        width: 95%;
+        padding: 22px;
+    }
+
+    #formulario h1 {
+        font-size: 25px;
+    }
+
+    #formulario p {
+        font-size: 14px;
+    }
+}
+
