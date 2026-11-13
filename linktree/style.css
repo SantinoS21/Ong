@@ -1,0 +1,123 @@
+body { 
+    background-color: rgb(236, 235, 235);
+
+
+}
+
+#cuadrado1 { 
+    position: absolute;
+    top : 48%; 
+    right : 50% ;
+    width: 50%;
+    height: 97%;
+    transform: translate(50%, -50%);
+    border-radius: 8%;
+    background-color: rgb(192, 192, 194);
+}
+
+#cuadrado2 { 
+    position: absolute;
+    top : 50%; 
+    right : 50% ;
+    width: 97%;
+    height: 99%;
+    transform: translate(50%, -50%);
+    border-radius: 7%;
+    background-color: rgb(212, 211, 211);
+}
+
+#fotoCara { 
+    position: absolute;
+    top : 16%; 
+    right : 50% ;
+    width: 19%;
+    height: 21%;
+    transform: translate(50%, -50%);
+    border-radius: 50%;
+}
+
+h1 {
+    position: absolute;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    white-space: nowrap;
+    top : 28%; 
+    left : 50% ;
+    transform: translateX(-50%)
+}
+
+h3 {
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    white-space: nowrap;
+    font-size: 30px;
+    top : 40%; 
+    left : 50% ;
+    transform: translateX(-50%)
+}
+#logolinkedin { 
+    position: absolute;
+    height: 10%;    
+    top : 46%; 
+    left : 35%;
+    transform: translate(-50%, 50%);
+    border-radius: 6%;
+}
+
+#logoArtstation { 
+    position: absolute;
+    height: 10%;    
+    top : 46%; 
+    left : 45%;
+    transform: translate(-50%, 50%);
+    border-radius: 6%;
+}
+
+#logoSketchfab { 
+    position: absolute;
+    height: 10%;    
+    top : 46%; 
+    left : 55%;
+    transform: translate(-50%, 50%);
+    border-radius: 6%;
+}
+
+#logoIg { 
+    position: absolute;
+    height: 10%;    
+    top : 46%; 
+    left : 65%;
+    transform: translate(-50%, 50%);
+    border-radius: 6%;
+}
+
+#tpidentikit { 
+    position: absolute;
+    height: 10%;    
+    top : 53%; 
+    font-size: 55px;
+    left : 50%;
+    transform: translate(-50%, 50%);
+    border-radius: 6%;
+}
+
+#tp { 
+    position: absolute;
+    height: 10%;    
+    top : 63%; 
+    font-size: 55px;
+    left : 50%;
+    transform: translate(-50%, 50%);
+    border-radius: 6%;
+}
+
+#repositorio { 
+    position: absolute;
+    height: 10%;    
+    top : 73%; 
+    font-size: 55px;
+    left : 50%;
+    transform: translate(-50%, 50%);
+    border-radius: 6%;
+}
+
